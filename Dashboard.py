@@ -49,7 +49,7 @@ elif chart_type == "Mercado":
     # Duas colunas para o contexto de Mercado
     col1, col2 = st.columns(2)
     with col1:
-        st.image('src\\imgs\\gym_mercado.png')
+        st.image('src/imgs/gym_mercado.png')
     with col2:
         st.markdown("<h1 style='text-align: center;'>Contexto de mercado</h1>", unsafe_allow_html=True)
         st.markdown("""
@@ -70,7 +70,7 @@ elif chart_type == "Mercado":
             #### -O valor transacionado com academias e produtos fitness cresceu cerca de 35% em 2023 comparado ao ano anterior, segundo estudo do Itaú Unibanco.
             """)
     with col2:
-        st.image('src\\imgs\\gym_mercado2.png')
+        st.image('src/imgs/gym_mercado2.png')
 
 # Página dos Planos
 
@@ -421,43 +421,43 @@ elif chart_type == "Informações do Grupo":
     # Cria três colunas para exibir os integrantes
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image(Funcoes.make_circle_image('src\\imgs\\Clarisse.jpg'), width=150)
+        st.image(Funcoes.make_circle_image('src/imgs/Clarisse.jpg'), width=150)
         st.write('##### Clarisse Lima')
         st.write(' - Gravação do vídeo')
     with col2:
-        st.image(Funcoes.make_circle_image('src\\imgs\\Malena.jpg'), width=150)
+        st.image(Funcoes.make_circle_image('src/imgs/Malena.jpg'), width=150)
         st.write('##### Malena Milani')
         st.write(' - Repositório')
         st.write(' - Organização')
     with col3:
-        st.image(Funcoes.make_circle_image('src\\imgs\\Isabela.jpg'), width=150)
+        st.image(Funcoes.make_circle_image('src/imgs/Isabela.jpg'), width=150)
         st.write('##### Isabela')
         st.write(' - Análise Categórica')
         st.write(' - Estilização')
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image(Funcoes.make_circle_image('src\\imgs\\Tiago.png'), width=150)
+        st.image(Funcoes.make_circle_image('src/imgs/Tiago.png'), width=150)
         st.write('##### Tiago Trindade')
         st.write(' - Criação do repositório')
         st.write(' - Análise Preditiva')
         st.write(' - Análise de relacionamento')
         st.write(' - Análise Temporal')
     with col2:
-        st.image(Funcoes.make_circle_image('src\\imgs\\Pedro.jpg'), width=150)
+        st.image(Funcoes.make_circle_image('src/imgs/Pedro.jpg'), width=150)
         st.write('##### Pedro Neves')
         st.write(' - Análise de Distribuição')
         st.write(' - DashBoard')
         st.write(' - Estilização')
         st.write(' - Readme de descrição')
     with col3:
-        st.image(Funcoes.make_circle_image('src\\imgs\\Max.jpg'), width=150)
+        st.image(Funcoes.make_circle_image('src/imgs/Max.jpg'), width=150)
         st.write('##### Max Clay')
         st.write(' - Revisões')
 
     col1, col2, col3 = st.columns(3)
     with col2:
-        st.image(Funcoes.make_circle_image('src\\imgs\\Gustavo.jpg'), width=150)
+        st.image(Funcoes.make_circle_image('src/imgs/Gustavo.jpg'), width=150)
         st.write('##### Gustavo Nascimento')
         st.write(' - Edições')
 
