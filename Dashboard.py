@@ -54,8 +54,8 @@ elif chart_type == "Mercado":
         st.markdown("<h1 style='text-align: center;'>Contexto de mercado</h1>", unsafe_allow_html=True)
         st.markdown("""
             ***********************
-            #### -O mercado fitness é uma área ampla que contempla negócios voltados à saúde e bem-estar de modo geral.
-            #### -Durante as últimas décadas, a necessidade de exercícios físicos é cada vez maior, a crescente preocupação com a saúde fez com que mais pessoas procurassem academias e espaços fitness.
+            #### - O mercado fitness é uma área ampla que contempla negócios voltados à saúde e bem-estar de modo geral.
+            #### - Durante as últimas décadas, a necessidade de exercícios físicos é cada vez maior, a crescente preocupação com a saúde fez com que mais pessoas procurassem academias e espaços fitness.
             """)
 
     st.markdown("""************************""")
@@ -66,8 +66,8 @@ elif chart_type == "Mercado":
         st.markdown("<h1 style='text-align: center;'>Estatísticas do mercado</h1>", unsafe_allow_html=True)
         st.markdown("""
             *******************
-            #### -O mercado fitness no Brasil fatura R$ 12 bilhões ao ano, de acordo com o Panorama Setorial de 2023.
-            #### -O valor transacionado com academias e produtos fitness cresceu cerca de 35% em 2023 comparado ao ano anterior, segundo estudo do Itaú Unibanco.
+            #### - O mercado fitness no Brasil fatura R$ 12 bilhões ao ano, de acordo com o Panorama Setorial de 2023.
+            #### - O valor transacionado com academias e produtos fitness cresceu cerca de 35% em 2023 comparado ao ano anterior, segundo estudo do Itaú Unibanco.
             """)
     with col2:
         st.image('src/imgs/gym_mercado2.png')
