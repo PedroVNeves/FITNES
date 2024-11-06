@@ -10,7 +10,7 @@ import base64
 from io import BytesIO
 
 # Carregando o banco de dados
-df = pd.read_csv('C:\\Prog\\Py\\ProjetosPessoais\\Pratica_e_pesquisa\\NESFIT\\data\\fitness_gym.csv')
+df = pd.read_csv('../data/fitness_gym.csv')
 
 # Exibindo a imagem centralizada na barra lateral
 Funcoes.display_centered_image('src/imgs/nesfitv2.jpg')
