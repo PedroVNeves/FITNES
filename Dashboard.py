@@ -14,7 +14,7 @@ df = pd.read_csv('data/fitness_gym.csv')
 
 # Exibindo a imagem centralizada na barra lateral
 Funcoes.display_centered_image('src/imgs/nesfitv2.jpg')
-st.sidebar.image('src\\imgs\\satisfaction_stars.png')
+st.sidebar.image('src/imgs/satisfaction_stars.png')
 
 # Cria um seletor de navegação na barra lateral
 chart_type = st.sidebar.selectbox("Navegação", ["Tela de Início", "Mercado", "Planos", "Atividades", "Frequência", "Informações do Projeto", "Informações do Grupo"])
