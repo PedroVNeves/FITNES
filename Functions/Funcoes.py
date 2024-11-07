@@ -292,7 +292,7 @@ def distribuicao_assinaturas(df):
     
     # Configurações do gráfico
     plt.figure(figsize=(6, 6), facecolor='#0E1117')
-    plt.rcParams.update({'font.size': 12})
+    plt.rcParams.update({'font.size': 12, 'font.family': 'Arial'})
 
     # Criando o gráfico de pizza com Matplotlib
     wedges, texts, autotexts = plt.pie(
