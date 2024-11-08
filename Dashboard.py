@@ -14,7 +14,7 @@ Funcoes.display_centered_image(
     "src/imgs/nesfitv2.jpg"
 )
 st.sidebar.image(
-    "src\\imgs\\satisfaction_stars.png"
+    "src/imgs/satisfaction_stars.png"
 )
 
 # Cria um seletor de navegação na barra lateral
@@ -65,7 +65,7 @@ elif chart_type == "Mercado":
     # Duas colunas para o contexto de Mercado
     col1, col2 = st.columns(2)
     with col1:
-        st.image("src\\imgs\\gym_mercado.png")
+        st.image("src/imgs/gym_mercado.png")
     with col2:
         st.markdown(
             "<h1 style='text-align: center;'>Contexto de mercado</h1>",
@@ -96,7 +96,7 @@ elif chart_type == "Mercado":
             """
         )
     with col2:
-        st.image("src\\imgs\\gym_mercado2.png")
+        st.image("src/imgs/gym_mercado2.png")
 
 # Página dos Planos
 
@@ -304,27 +304,9 @@ elif chart_type == "Atividades":
     - **1. Bem-estar**
     - **2. Dança**
     - **3. Força**
-
-    *******************************
     """
     )
 
-    st.write("### Análise de ROI")
-    st.pyplot(Funcoes.analise_roi(df))
-    st.markdown(
-        """
-    ### Top 3 Atividades com Mais Retorno:
-    - **1. Zumba**
-    - **2. Yoga**
-    - **3. Musculação**
-    
-    ### Atividades causando prejuízo:
-    - **1. Jump**
-    - **2. Crossfit**
-    - **3. Spinning**
-    *******************************
-    """
-    )
     # Problemas e soluções
     st.write(
         "<h1 style='text-align: center;'>Problemas e soluções</h1>",
@@ -584,7 +566,7 @@ elif chart_type == "Informações do Grupo":
     with col1:
         st.image(
             Funcoes.make_circle_image(
-                "src\\imgs\\Clarisse.jpg"
+                "src/imgs/Clarisse.jpg"
             ),
             width=150,
         )
@@ -593,7 +575,7 @@ elif chart_type == "Informações do Grupo":
     with col2:
         st.image(
             Funcoes.make_circle_image(
-                "src\\imgs\\Malena.jpg"
+                "src/imgs/Malena.jpg"
             ),
             width=150,
         )
@@ -603,7 +585,7 @@ elif chart_type == "Informações do Grupo":
     with col3:
         st.image(
             Funcoes.make_circle_image(
-                "src\\imgs\\Isabela.jpg"
+                "src/imgs/Isabela.jpg"
             ),
             width=150,
         )
@@ -615,7 +597,7 @@ elif chart_type == "Informações do Grupo":
     with col1:
         st.image(
             Funcoes.make_circle_image(
-                "src\\imgs\\Tiago.png"
+                "src/imgs/Tiago.png"
             ),
             width=150,
         )
@@ -627,7 +609,7 @@ elif chart_type == "Informações do Grupo":
     with col2:
         st.image(
             Funcoes.make_circle_image(
-                "src\\imgs\\Pedro.jpg"
+                "src/imgs/Pedro.jpg"
             ),
             width=150,
         )
@@ -639,7 +621,7 @@ elif chart_type == "Informações do Grupo":
     with col3:
         st.image(
             Funcoes.make_circle_image(
-                "src\\imgs\\Max.jpg"
+                "src/imgs/Max.jpg"
             ),
             width=150,
         )
@@ -650,7 +632,7 @@ elif chart_type == "Informações do Grupo":
     with col2:
         st.image(
             Funcoes.make_circle_image(
-                "src\\imgs\\Gustavo.jpg"
+                "src/imgs/Gustavo.jpg"
             ),
             width=150,
         )
